@@ -1,1 +1,4 @@
 Hello Scala
+This is a text file.
+The contents in it is just for some test.
+你好，很高兴能见到你。
