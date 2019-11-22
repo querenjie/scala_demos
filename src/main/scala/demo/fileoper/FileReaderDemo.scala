@@ -4,8 +4,9 @@ import scala.io.Source
 
 object FileReaderDemo {
   def main(args: Array[String]): Unit = {
-    println("Following is content read:")
-    Source.fromFile("test.txt").foreach{
+    val filePath = "D:\\idea_workspace\\scala-examples\\Demos\\test.txt"
+    println("以下打印的是文件中的内容：")
+    Source.fromFile(filePath).foreach{
       print
     }
   }
