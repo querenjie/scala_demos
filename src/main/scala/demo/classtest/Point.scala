@@ -19,6 +19,12 @@ class Point( xc:Int,  yc:Int) {
   }
 }
 
+/**
+  * 类的继承
+  * @param xc
+  * @param yc
+  * @param zc
+  */
 class Location(  xc:Int,   yc:Int, val zc:Int) extends Point(xc, yc) {
   var z: Int = zc
 
