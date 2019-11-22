@@ -13,7 +13,7 @@ object ArrayDemo {
     //print two dimensional array
     for (i <- 0 to 2) {
       for (j <- 0 to 2) {
-        print(" " + myMatrix(i)(j))
+        print("myMatrix("+i+")("+j+")="+myMatrix(i)(j)+"\t")
       }
       println()
     }
