@@ -12,6 +12,11 @@ object FuncDemo3 {
     func(name)
   }
 
+  /**
+    * getGreetingFun函数返回的是一个匿名函数，匿名函数有入参描述(name: String)，其函数体是println(msg + " , " + name)
+    * @param msg
+    * @return
+    */
   def getGreetingFunc(msg: String) = (name: String) => println(msg + " , " + name)
 
 

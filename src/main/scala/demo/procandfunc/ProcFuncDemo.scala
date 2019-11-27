@@ -16,7 +16,7 @@ object ProcFuncDemo {
     println(s"Hello, $name1 and $name2")
   }
 
-  val showTall = (name: String, tall: Double) => println(f"$name%s is $tall%1.20f meters tall" )
+  val showTall = (name: String, tall: Double) => println(f"$name%s is $tall%1.5f meters tall" )
 
   def main(args: Array[String]): Unit = {
     var a: Int = 5; var b: Int = 7
@@ -29,6 +29,6 @@ object ProcFuncDemo {
     println("String content is: '" + str + "'\tString length is : " + getStrLen(str))
     sayHello("kite", "Cat")
     println(s"1+2=${1+2}")
-    showTall("James", 1.8d)
+    showTall("James", 10.8d)
   }
 }
